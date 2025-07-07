@@ -1,16 +1,21 @@
 "use client";
-
 import { Points, PointMaterial } from "@react-three/drei";
-import { Canvas, type PointsProps, useFrame } from "@react-three/fiber";
-import * as random from "maath/random";
-import { useState, useRef, Suspense } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { inSphere } from "maath/random";
+import { useRef, Suspense, useMemo } from "react";
 import type { Points as PointsType } from "three";
+import type { ComponentProps } from "react";
+
+type PointsProps = ComponentProps<typeof Points>;
 
 export const StarBackground = (props: PointsProps) => {
-  const ref = useRef<PointsType | null>(null);
-  const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 })
-  );
+  const ref = useRef<PointsType>(null);
+
+  const sphere = useMemo(() => {
+    const arr = new Float32Array(5000); // Should be divisible by 3 for XYZ
+    inSphere(arr, { radius: 1.2 });
+    return arr;
+  }, []);
 
   useFrame((_state, delta) => {
     if (ref.current) {
@@ -21,13 +26,7 @@ export const StarBackground = (props: PointsProps) => {
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
-      <Points
-        ref={ref}
-        stride={3}
-        positions={new Float32Array(sphere)}
-        frustumCulled
-        {...props}
-      >
+      <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
           color="#fff"
