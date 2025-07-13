@@ -360,5 +360,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/theankou-coding/portfolio-",
+  sourceCode: "https://github.com/theankou-coding/portfolio",
 };
