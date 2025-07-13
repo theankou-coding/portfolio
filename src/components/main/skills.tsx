@@ -9,6 +9,7 @@ import {
   SKILL_DATA,
 } from "@/constants";
 
+// add the import for the SkillDataProvider and SkillText components
 export const Skills = () => {
   return (
     <section
