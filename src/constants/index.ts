@@ -259,25 +259,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Blizzer chatbot",
+    title: "Blizzer",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Blizzer is a chat application that allows users to connect with friends and family through real-time messaging. It features a user-friendly interface, secure authentication, and the ability to send text messages, images, and files. Blizzer is designed to provide a seamless communication experience across devices.",
     image: "/projects/project-1.png",
     link: "https://blizzer.tech/",
   },
   {
-    title: "Event management system",
+    title: "Eventify",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Eventify is a dynamic event management platform that simplifies the process of organizing and attending events. It offers features such as event creation, ticketing, and attendee management, making it easy for users to host and participate in events of all sizes.",
     image: "/projects/project-2.png",
     link: "https://eventify-zeta-blue.vercel.app/",
   },
   {
     title: "Portfolio website with Space Theme",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Portfolio website with Space Theme is a visually stunning and interactive portfolio designed to showcase my work in a space-themed environment. It features smooth animations, a responsive layout, and a unique design that highlights your projects and skills in an engaging way.",
     image: "/projects/project-3.png",
-    link: "https://portfolio-loem-theankous-projects.vercel.app/",
+    link: "https://portfolio-one-pi-43.vercel.app/",
   },
 ] as const;
 
