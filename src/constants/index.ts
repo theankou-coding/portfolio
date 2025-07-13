@@ -107,42 +107,42 @@ export const SOCIALS = [
 ] as const;
 
 export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "HTML",
+  //   image: "html.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "CSS",
+  //   image: "css.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "JavaScript",
+  //   image: "js.png",
+  //   width: 65,
+  //   height: 65,
+  // },
+  // {
+  //   skill_name: "Tailwind CSS",
+  //   image: "tailwind.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "Material UI",
+  //   image: "mui.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "React",
+  //   image: "react.png",
+  //   width: 80,
+  //   height: 80,
+  // },
   // {
   //   skill_name: "Redux",
   //   image: "redux.png",
@@ -155,18 +155,18 @@ export const FRONTEND_SKILL = [
   //   width: 80,
   //   height: 80,
   // },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "TypeScript",
+  //   image: "ts.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "Next.js 14",
+  //   image: "next.png",
+  //   width: 80,
+  //   height: 80,
+  // },
 ] as const;
 
 export const BACKEND_SKILL = [
