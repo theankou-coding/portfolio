@@ -328,7 +328,7 @@ export const FOOTER_DATA = [
       {
         name: "Become Sponsor",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://www.youtube.com/@Theankou",
       },
       // {
       //   name: "Learning about me",
